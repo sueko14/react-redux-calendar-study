@@ -1,0 +1,35 @@
+.board {
+  display: grid;
+  grid-template-columns: repeat(7, auto);
+}
+
+.board > .board-row {
+  display: contents;
+}
+
+.day-of-week {
+  background: #ffffcc;
+  border: solid 1px #dddddd;
+  pointer-events: none;
+}
+
+.daynum {
+  width: 100%;
+  padding-bottom: 50%;
+  background: #ffffff;
+  border: solid 1px #dddddd;
+}
+
+.daynum-else {
+  width: 100%;
+  padding-bottom: 50%;
+  background: #eeeeee;
+  border: solid 1px #dddddd;
+  color: #999999;
+}
+
+/** TODO ボタンをかっこよくする
+.incre-decre {
+  
+}
+*/
